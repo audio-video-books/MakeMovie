@@ -22,6 +22,7 @@
 		3FD0ACBE168AA0AC00CBC6F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACBD168AA0AC00CBC6F2 /* QuartzCore.framework */; };
 		3FD0ACC0168AA0B200CBC6F2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACBF168AA0B200CBC6F2 /* MobileCoreServices.framework */; };
 		3FD0ACC2168AA0B600CBC6F2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACC1168AA0B600CBC6F2 /* AssetsLibrary.framework */; };
+		3FD0ACC8168AA3EF00CBC6F2 /* MovieEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0ACC7168AA3EF00CBC6F2 /* MovieEditor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		3FD0ACBD168AA0AC00CBC6F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3FD0ACBF168AA0B200CBC6F2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3FD0ACC1168AA0B600CBC6F2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3FD0ACC6168AA3EF00CBC6F2 /* MovieEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieEditor.h; sourceTree = "<group>"; };
+		3FD0ACC7168AA3EF00CBC6F2 /* MovieEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieEditor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		3FD0AC8A168A9EC600CBC6F2 /* MakeMovie */ = {
 			isa = PBXGroup;
 			children = (
+				3FD0ACC6168AA3EF00CBC6F2 /* MovieEditor.h */,
+				3FD0ACC7168AA3EF00CBC6F2 /* MovieEditor.m */,
 				3FD0AC93168A9EC600CBC6F2 /* AppDelegate.h */,
 				3FD0AC94168A9EC600CBC6F2 /* AppDelegate.m */,
 				3FD0AC9C168A9EC600CBC6F2 /* ViewController.h */,
@@ -192,6 +197,7 @@
 				3FD0AC91168A9EC600CBC6F2 /* main.m in Sources */,
 				3FD0AC95168A9EC600CBC6F2 /* AppDelegate.m in Sources */,
 				3FD0AC9E168A9EC600CBC6F2 /* ViewController.m in Sources */,
+				3FD0ACC8168AA3EF00CBC6F2 /* MovieEditor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
