@@ -19,6 +19,11 @@
 		3FD0AC9E168A9EC600CBC6F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0AC9D168A9EC600CBC6F2 /* ViewController.m */; };
 		3FD0ACA1168A9EC600CBC6F2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0AC9F168A9EC600CBC6F2 /* ViewController_iPhone.xib */; };
 		3FD0ACA4168A9EC600CBC6F2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD0ACA2168A9EC600CBC6F2 /* ViewController_iPad.xib */; };
+		3FD0ACBA168AA0A000CBC6F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACB9168AA0A000CBC6F2 /* AVFoundation.framework */; };
+		3FD0ACBC168AA0A500CBC6F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACBB168AA0A500CBC6F2 /* CoreMedia.framework */; };
+		3FD0ACBE168AA0AC00CBC6F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACBD168AA0AC00CBC6F2 /* QuartzCore.framework */; };
+		3FD0ACC0168AA0B200CBC6F2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACBF168AA0B200CBC6F2 /* MobileCoreServices.framework */; };
+		3FD0ACC2168AA0B600CBC6F2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD0ACC1168AA0B600CBC6F2 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		3FD0AC9D168A9EC600CBC6F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FD0ACA0168A9EC600CBC6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		3FD0ACA3168A9EC600CBC6F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3FD0ACB9168AA0A000CBC6F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3FD0ACBB168AA0A500CBC6F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3FD0ACBD168AA0AC00CBC6F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3FD0ACBF168AA0B200CBC6F2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3FD0ACC1168AA0B600CBC6F2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +56,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD0AC89168A9EC600CBC6F2 /* CoreGraphics.framework in Frameworks */,
+				3FD0ACC2168AA0B600CBC6F2 /* AssetsLibrary.framework in Frameworks */,
+				3FD0ACC0168AA0B200CBC6F2 /* MobileCoreServices.framework in Frameworks */,
+				3FD0ACBE168AA0AC00CBC6F2 /* QuartzCore.framework in Frameworks */,
+				3FD0ACBC168AA0A500CBC6F2 /* CoreMedia.framework in Frameworks */,
+				3FD0ACBA168AA0A000CBC6F2 /* AVFoundation.framework in Frameworks */,
 				3FD0AC85168A9EC600CBC6F2 /* UIKit.framework in Frameworks */,
 				3FD0AC87168A9EC600CBC6F2 /* Foundation.framework in Frameworks */,
-				3FD0AC89168A9EC600CBC6F2 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,11 @@
 		3FD0AC83168A9EC600CBC6F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FD0ACC1168AA0B600CBC6F2 /* AssetsLibrary.framework */,
+				3FD0ACBF168AA0B200CBC6F2 /* MobileCoreServices.framework */,
+				3FD0ACBD168AA0AC00CBC6F2 /* QuartzCore.framework */,
+				3FD0ACBB168AA0A500CBC6F2 /* CoreMedia.framework */,
+				3FD0ACB9168AA0A000CBC6F2 /* AVFoundation.framework */,
 				3FD0AC84168A9EC600CBC6F2 /* UIKit.framework */,
 				3FD0AC86168A9EC600CBC6F2 /* Foundation.framework */,
 				3FD0AC88168A9EC600CBC6F2 /* CoreGraphics.framework */,
